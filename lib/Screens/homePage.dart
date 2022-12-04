@@ -118,6 +118,7 @@ class HomePage extends StatelessWidget {
                     Tab(text: "New",),],),
                   const Flexible(
                     flex: 1,
+                      fit: FlexFit.loose,
                       child: TabBarView(
                       children: [
                          MusicList(),
